@@ -17,6 +17,7 @@ A Rust CLI tool to fetch balances of ERC-20 tokens held in an Ethereum wallet fr
 Sing up and get a free api key from Covalent:
 https://www.covalenthq.com/platform/auth/register/
 
+Clone the repository:
 ```
 git clone https://github.com/renand3z/distinct-cqt-query
 cd distinct-cqt-query
@@ -37,13 +38,3 @@ Personalized:
 ```
 cargo run -- -w <wallet_addr> -c <number_of_tokens>
 ```
-
-
-
-## Technical Specs
-
-- Built with Rust and Cargo
-- Uses Clap for argument parsing
-- Reqwest for HTTP requests
-- Dotenv for environment variables
-- Serde for JSON parsing
